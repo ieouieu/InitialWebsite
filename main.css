@@ -89,7 +89,7 @@ header label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #4cb4f0;
+    color: #000000;
 }
 
 header input, select, section input, section textarea {
