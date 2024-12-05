@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('IT.png'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the background image */
+    height: 100vh; /* Ensures full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign-In Container */
+.sign-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for readability */
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+/* Header Styles */
+h1 {
+    color: white; /* Makes the heading color white to contrast against the background */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+.form-container {
+    width: 100%;
+}
+
+/* Input Fields */
+.input-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white; /* Label text in white */
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensures padding doesn't overflow the width */
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4cb4f0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+    box-sizing: border-box; /* Ensures button doesn't overflow */
+}
+
+button:hover {
+    background-color: #4cb4f0;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 0.9rem;
+    color: white; /* Makes the text white for contrast */
+}
+
+p a {
+    text-decoration: none;
+    color: #4cb4f0;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

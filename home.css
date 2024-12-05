@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #e0f7ff, #cce8ff);
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.main-header {
+    background-color: #4cb4f0; /* Header background color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-header .logo h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    margin: 0 15px;
+}
+
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.menu-bar ul li a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+    margin: 0;
+}
+
+header p {
+    color: #555;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Showcase Section */
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.showcase-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+}
+
+.slide {
+    background: #ffffff;
+    border: 1px solid #b3d7f0;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.slide:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.slide h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.slide p {
+    color: #555;
+    font-size: 0.9em;
+}
+
+/* Image Styling for APNGs */
+.slide-img {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Center the button */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.primary-button {
+    background-color: #4cb4f0;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #339ed1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #b3d7f0;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #333;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}

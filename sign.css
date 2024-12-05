@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('IT.png'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the background image */
+    height: 100vh; /* Ensures full viewport height */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+/* Sign-Up Container */
+.sign-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: white; /* White text for contrast */
+    margin-bottom: 20px; /* Adds some space under the heading */
+}
+
+/* Input Fields */
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Adds space between label and input */
+    color: white; /* White text for labels */
+}
+
+.input-field input {
+    width: 100%;
+    padding: 12px; /* Increased padding for better input area */
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensures padding doesn't overflow the width */
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding for the button */
+    background-color: #4cb4f0; /* Light blue */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 15px; /* Provides extra spacing between button and other elements */
+}
+
+button:hover {
+    background-color: #3991c3; /* Darker blue on hover */
+}
+
+/* Paragraph */
+p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 15px; /* Adds space above the paragraph */
+    color: white; /* White text for the paragraph */
+}
+
+p a {
+    text-decoration: none;
+    color: #4cb4f0; /* Light blue link color */
+}
+
+p a:hover {
+    text-decoration: underline;
+}

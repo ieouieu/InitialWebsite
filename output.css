@@ -1,0 +1,145 @@
+body { 
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #4cb4f0, #c2e7ff); /* Updated gradient to match theme */
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.main-header {
+    background-color: #4cb4f0; /* Header background color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-header .logo h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    margin: 0 15px;
+}
+
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.menu-bar ul li a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+
+.slam-book {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background: #4cb4f0; /* Updated color */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+
+header .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; 
+}
+
+header .profile-img:hover img {
+    transform: scale(1.1); 
+}
+
+header .name-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+}
+
+header label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4cb4f0; /* Updated text color */
+}
+
+header input, select, section input, section textarea {
+    padding: 3px;
+    margin: 2px 0;
+    width: 100%;
+    border: 1px solid #4cb4f0; /* Updated border color */
+    border-radius: 5px;
+    color: #4cb4f0; /* Updated input text color */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #e6f7ff; /* Light blue to match theme */
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #4cb4f0; /* Updated header color */
+}
+
+section div,
+section textarea,
+section select {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4cb4f0; /* Updated label color */
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #4cb4f0; /* Updated background color */
+    border-radius: 10px;
+    font-size: 0.9em;
+    color: #fff; /* White text for footer */
+}
